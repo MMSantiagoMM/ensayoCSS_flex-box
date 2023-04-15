@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.container-principal-menu {
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(190, 41, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+}
+.container-principal-menu a img{
+    width: 25rem;
+    height: 100%;
+}
+.container-principal-menu a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+.container-principal-menu a:hover {
+    box-shadow: 0 1px 6px white;
+    color: greenyellow;
+}
+main .container-principal-main {
+    border: 1px solid black;
+    width: 60rem;
+    height: 40rem;
+    position: relative;
+    top: 15rem;
+    left: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 10rem;
+    font-size: 2rem;
+    background-image: url("/img/Qué-es-el-agua-3.jpg");
+}
+main .container-principal-main .container1, .container2, .container3, .container4 {
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+main .container-principal-main .container1:hover, .container2:hover, .container3:hover, .container4:hover {
+    box-shadow: 0 0.1rem 0.6rem rgb(255, 255, 255);
+} 
+
+.container1 {
+    background-color: blue;
+}
+.container2 {
+    background-color: brown;
+}
+.container3 {
+    background-color: chartreuse;
+}
+.container4 {
+    background-color: violet;
+}
